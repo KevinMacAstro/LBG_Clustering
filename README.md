@@ -9,7 +9,6 @@ Kavli IPMU
 
 <h1><b> Relevant Links: </b></h1>  <br />
 <ul>
-<li><a href="https://mwhite.berkeley.edu/BoxRemap/">Box remapper for reshaping volume cutout from the Uchuu to match the survey geometry of PFS.</a> </li><br />
 <li><a href="https://skun.iaa.csic.es/SUsimulations/UchuuDR2/Uchuu_UM/">Uchuu UM snapshot data and Readmes.</a></li> <br />
 <li><a href="https://corrfunc.readthedocs.io/en/master/index.html">Corrfunc, python package used to measure 2PCFs.</a></li> <br />
   
