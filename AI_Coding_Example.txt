@@ -1,5 +1,29 @@
 AI Coding Exercise:
 
 
-Simulate spectroscopic target sample selection of an Uchuu UM redshift snapshot box. Should use the available information in the Uchuu UM data *file1.dat, *file2.dat, and *file3.dat (details in https://skun.iaa.csic.es/SUsimulations/UchuuDR2/Uchuu_UM/Readme_Uchuu_UM_data_structure.txt) to somehow measure the broadband flux for the CFHT MegaCam g, r, and u bands (following observations of Bielby+13, use the 1st generation filter curves available here: https://svo2.cab.inta-csic.es/svo/theory/fps/index.php?mode=browse&gname=CFHT&gname2=MegaCam&asttype=). Color cuts of Bielby+13 are shown in section 2.3.2 of their publication (https://ui.adsabs.harvard.edu/abs/2013MNRAS.430..425B/abstract). Note, since the faintest magnitude cut is r ~ 25, it is possible to make some assumption about the conversion from UV mag from Uchuu UM at snapshot redshift z to observed CFHT r-band mag and only compute all the broadband fluxes for some brightness cut. This color-mag selection is meant to simulate the galaxies that we would try to place a fiber on in the PFS survey and measure the spectra to obtain a redshift. The expectation is that the galaxies we obtain a robust redshift measurement for will be a random downsample from the color-mag selection. Therefore, we simply need to randomly select from the color-mag sample enough galaxies to match the observed surface density of LBGs, 0.2 per sq.arcmin, by projecting the box through a line-of-sight along a box axis, z for instance. For AI portion, would welcome other choices to selecting those galaxies from the color-mag sample that would have the highest probability of being a confirmed LBG spectra. That is, they would be able to satisfy a spectral quality cut, an example given in Bielby+13 Section 2.5.
+Simulate spectroscopic target sample selection of an Uchuu UM redshift snapshot 
+box. Should use the available information in the Uchuu UM data *file1.dat, 
+*file2.dat, and *file3.dat (details in 
+https://skun.iaa.csic.es/SUsimulations/UchuuDR2/Uchuu_UM/Readme_Uchuu_UM_data_st
+ructure.txt) to somehow measure the broadband flux for the CFHT MegaCam g, r, 
+and u bands (following observations of Bielby+13, use the 1st generation filter 
+curves available here: 
+https://svo2.cab.inta-csic.es/svo/theory/fps/index.php?mode=browse&gname=CFHT&gn
+ame2=MegaCam&asttype=). Color cuts of Bielby+13 are shown in section 2.3.2 of 
+their publication 
+(https://ui.adsabs.harvard.edu/abs/2013MNRAS.430..425B/abstract). Note, since 
+the faintest magnitude cut is r ~ 25, it is possible to make some assumption 
+about the conversion from UV mag from Uchuu UM at snapshot redshift z to 
+observed CFHT r-band mag and only compute all the broadband fluxes for some 
+brightness cut. This color-mag selection is meant to simulate the galaxies that 
+we would try to place a fiber on in the PFS survey and measure the spectra to 
+obtain a redshift. The expectation is that the galaxies we obtain a robust 
+redshift measurement for will be a random downsample from the color-mag 
+selection. Therefore, we simply need to randomly select from the color-mag 
+sample enough galaxies to match the observed surface density of LBGs, 0.2 per 
+sq.arcmin, by projecting the box through a line-of-sight along a box axis, z 
+for instance. For AI portion, would welcome other choices to selecting those 
+galaxies from the color-mag sample that would have the highest probability of 
+being a confirmed LBG spectra. That is, they would be able to satisfy a 
+spectral quality cut, an example given in Bielby+13 Section 2.5.
 
